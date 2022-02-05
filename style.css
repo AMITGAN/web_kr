@@ -1,0 +1,31 @@
+.main {
+    position: absolute; 
+    top: 0; 
+    right: 0;
+    margin-top: 1em;
+    max-width: 25em;
+    min-height: 2em;
+}
+
+#register{
+    display: none;
+}
+
+#login{
+    display: none;
+}
+
+
+#register:target{
+    display: block;
+}
+
+#login:target{
+    display: block;
+}
+
+
+
+
+
+
